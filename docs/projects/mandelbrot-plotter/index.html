@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;800&display=swap" rel="stylesheet">
+
+    <script defer src="../../assets/fa-all.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/styles.css">
+
+    <title> Mandelbrot Plotter </title>
+</head>
+
+<body>
+
+    <div id="hamburger">
+        <span class="fas fa-bars"></span>
+    </div>
+
+    <div id="sidebar">
+        <a href="../../index.html"> Volver a la pagina principal </a>
+        <a href="#project-header"> Inicio </a>
+        <a href="#view-project"> Probar el proyecto </a>
+        <a href="#about"> Acerca del proyecto </a>
+    </div>
+
+    <div id="content">
+        <div id="project-header" class="section">
+            <h1> Mandelbrot Plotter </h1>
+            <canvas id="header-canvas"></canvas>
+        </div>
+        <div id="project-image" class="section">
+            <div id="img-container">
+                <img src="screenshots/captura-1.png" alt="screenshot">
+                <img src="screenshots/captura-2.png" alt="screenshot">
+                <img src="screenshots/captura-3.png" alt="screenshot">
+            </div>
+        </div>
+        <div id="view-project" class="section odd">
+            <div>
+                <a class="btn odd" target="_blank" href="https://barbablanca97.github.io/mandelbrot-plotter/"> VER PAGINA </a>
+                <a class="btn odd" target="_blank" href="https://github.com/BarbaBlanca97/mandelbrot-plotter"> VER CODIGO FUENTE </a>
+            </div>
+
+            <div>
+                <div class="warn-display">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    No se recomienda usar en dispositivos mobiles
+                </div>
+            </div>
+        </div>
+        <div class="section" id="about">
+            <h1> Acerca del proyecto </h1>  
+
+            <p>
+                Es un graficador del fractal de mandelbrot. Permite hacer paneos y zoom.
+                <br><br>
+                El acercamiento se puede hacer hasta donde la presición de los flotantes en javascript permita.
+            </p>
+
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/javascript.svg" alt="laguage-tec">
+                <span>Javascript</span>
+            </div>
+
+            <h4><span class="text-strong">Tecnologías:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/react.svg" alt="laguage-tec">
+                <span>React</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/webpack.svg" alt="laguage-tec">
+                <span>Webpack</span>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/script.js"></script>
+</body>
+</html>

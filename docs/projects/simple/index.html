@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;800&display=swap" rel="stylesheet">
+
+    <script defer src="../../assets/fa-all.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/styles.css">
+
+    <title> Simple </title>
+</head>
+
+<body>
+
+    <div id="hamburger">
+        <span class="fas fa-bars"></span>
+    </div>
+
+    <div id="sidebar">
+        <a href="../../index.html"> Volver a la pagina principal </a>
+        <a href="#project-header"> Inicio </a>
+        <a href="#view-project"> Probar el proyecto </a>
+        <a href="#about"> Acerca del proyecto </a>
+    </div>
+
+    <div id="content">
+        <div id="project-header" class="section">
+            <h1> Simple </h1>
+            <canvas id="header-canvas"></canvas>
+        </div>
+        <div id="project-image" class="section">
+            <div id="img-container">
+                <img src="screenshots/captura-1.png" alt="screenshot">
+                <img src="screenshots/captura-2.png" alt="screenshot">
+                <img src="screenshots/captura-3.png" alt="screenshot">
+                <img src="screenshots/captura-4.png" alt="screenshot">
+            </div>
+        </div>
+        <div id="view-project" class="section odd">
+            <a class="btn odd" target="_blank" href="https://drive.google.com/file/d/1Hs-Zb_vgQOqyJy-etaLS4CA6Mz5_pvwp/view?usp=sharing"> DESCARGAR APK </a>
+        </div>
+        <div class="section" id="about">
+            <h1> Acerca del proyecto </h1>
+
+            <p> 
+                En el último tiempo de la secundaria había hecho muchos jueguitos para celular pero ninguno terminaba en algo concreto. Simple fue hecho para eso, algo que poder terminar y publicar. 
+                <br>
+                <br>
+                El juego consiste en hacer que las figuras de abajo coincidan con las que van cayendo. Está disponible una tienda para comprar distintos sonidos, temas y quitar la publicidad, las monedas del juego se consiguen viendo publicidad.
+                <br>
+                <br>
+                Durante un tiempo estuvo publicado en la Play Store, pero fue dado de baja por no poder cumplir con una solicitud de google de actualizar el juego (perdí el código fuente en un formateo de la pc) 
+            </p>
+
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/csharp.svg" alt="laguage-tec">
+                <span>C#</span>
+            </div>
+
+            <h4><span class="text-strong">Tecnologías:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/unity.svg" alt="laguage-tec">
+                <span>Unity</span>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/script.js"></script>
+</body>
+</html>

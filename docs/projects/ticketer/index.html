@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;800&display=swap" rel="stylesheet">
+
+    <script defer src="../../assets/fa-all.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/styles.css">
+
+    <title> Ticketer </title>
+</head>
+
+<body>
+
+    <div id="hamburger">
+        <span class="fas fa-bars"></span>
+    </div>
+
+    <div id="sidebar">
+        <a href="../../index.html"> Volver a la pagina principal </a>
+        <a href="#project-header"> Inicio </a>
+        <a href="#view-project"> Probar el proyecto </a>
+        <a href="#about"> Acerca del proyecto </a>
+    </div>
+
+    <div id="content">
+        <div id="project-header" class="section">
+            <h1> Ticketer </h1>
+            <canvas id="header-canvas"></canvas>
+        </div>
+        <div id="project-image" class="section">
+            <div id="img-container">
+                <img src="screenshots/captura-1.png" alt="screenshot">
+                <img src="screenshots/captura-2.png" alt="screenshot">
+                <img src="screenshots/captura-3.png" alt="screenshot">
+                <img src="screenshots/captura-4.png" alt="screenshot">
+            </div>
+        </div>
+        <div id="view-project" class="section odd">
+            <a class="btn odd" target="_blank" href="http://codeticketer.herokuapp.com/"> VER PAGINA </a>
+            <a class="btn odd" target="_blank" href="https://github.com/JoaquinNoguera/Ticketer"> VER CODIGO FUENTE </a>
+
+            <div>
+                <div class="warn-display">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Esta aplicación está alojada en un dyno gratis de Heroku, por lo tanto <strong>los tiempos de carga pueden ser lentos inicialmente</strong>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="about">
+            <h1> Acerca del proyecto </h1>
+
+            <span class="pill">
+                <i class="fas fa-users"></i>
+                En equipo
+            </span>
+
+            <p> Es una aplicacion para controlar la division de tareas dentro de un proyecto, indica quien hizo y está haciendo cada cosa. Cada usuario se crea una cuenta y puede ser invitado a un proyecto existente o crear uno propio e invitar colaboradores </p>
+
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/javascript.svg" alt="laguage-tec">
+                <span>Javascript</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/java.svg" alt="laguage-tec">
+                <span>Java</span>
+            </div>
+
+            <h4><span class="text-strong">Tecnologías:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/spring.svg" alt="laguage-tec">
+                <span>Spring</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/react.svg" alt="laguage-tec">
+                <span>React</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/postgresql.svg" alt="laguage-tec">
+                <span>PostgreSQL</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/webpack.svg" alt="laguage-tec">
+                <span>Webpack</span>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/script.js"></script>
+</body>
+</html>

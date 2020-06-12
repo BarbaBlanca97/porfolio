@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;800&display=swap" rel="stylesheet">
+
+    <script defer src="../../assets/fa-all.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/styles.css">
+
+    <title> Varios </title>
+</head>
+
+<body>
+    <div id="hamburger">
+        <span class="fas fa-bars"></span>
+    </div>
+
+    <div id="sidebar">
+        <a href="../../index.html"> Volver a la pagina principal </a>
+        <a href="#project-header"> Inicio </a>
+        <a href="#view-project"> Probar el proyecto </a>
+        <a href="#about"> Acerca del proyecto </a>
+    </div>
+
+    <div id="content">
+        <div id="project-header" class="section">
+            <h1> Varios </h1>
+            <canvas id="header-canvas"></canvas>
+        </div>
+        <div id="project-image" class="section">
+            <div id="img-container">
+                <img src="screenshots/captura-1-compresor.png" alt="screenshot">
+                <img src="screenshots/captura-2-compresor.png" alt="screenshot">
+                <img src="screenshots/captura-1-maze.png" alt="screenshot">
+                <img src="screenshots/captura-2-maze.png" alt="screenshot">
+            </div>
+        </div>
+        <div id="view-project" class="section odd">
+            <h4 style="margin-bottom: 1em; display: block;"> Estos son links a los repositorios, donde vas a poder ver el código y descargar los ejecutables </h4>
+            <div>
+                <a class="btn odd" target="_blank" href="https://github.com/BarbaBlanca97/lzw-compressor"> COMPRESOR</a>
+                <a class="btn odd" target="_blank" href="https://github.com/BarbaBlanca97/mazer"> GENERADOR DE LABERINTOS</a>
+                <a class="btn odd" target="_blank" href="https://github.com/BarbaBlanca97/sub-pync"> SINCRONIZADOR DE SUBTITULOS</a>
+            </div>
+        </div>
+        <div class="section" id="about">
+            <h1> Acerca de los proyectos </h1>
+
+            <h3>Compresor</h3>
+            <p>
+                Es una implementacion del algoritmo LZW que comprime en una sola pasada.
+                <br><br>
+                Es bueno comprimiendo archivos que no estan previamente comprimidos, como texto plano e imagenes bitmap. En archivos encodados, como pdf o png, el resultado de la compresion es, a menudo, mas grande que el original.
+            </p>
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/cplusplus.svg" alt="laguage-tec">
+                <span>C++</span>
+            </div>
+
+            <h4><span class="text-strong">Tecnologías:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/qt.png" alt="laguage-tec">
+                <span>Qt</span>
+            </div>
+
+            <h3>Generador de laberintos</h3>
+            <p>
+                Es un generador de laberintos aleatorios, especificas el alto y el ancho y te da un .png con tu laberinto
+                <br><br>
+                En el repo tambien se incluye un programa en el que podes recorrer el laberinto, y cuando lo finalizas te da un .png con el camino que hiciste
+            </p>
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/cplusplus.svg" alt="laguage-tec">
+                <span>C++</span>
+            </div>
+
+            <h4><span class="text-strong">Tecnologías:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/sfml.svg" alt="laguage-tec">
+                <span>SFML</span>
+            </div>
+
+            <h3>Sincronizador de subtítulos</h3>
+            <p>
+                Es un sincronizador de subtitulos .srt, le decis cuanto crees que es la corrección que hay que hacer desfase y la aplica
+            </p>
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/python.svg" alt="laguage-tec">
+                <span>Python</span>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/script.js"></script>
+</body>
+</html>

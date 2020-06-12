@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;800&display=swap" rel="stylesheet">
+
+    <script defer src="../../assets/fa-all.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/styles.css">
+
+    <title> Mercado Tracker </title>
+</head>
+
+<body>
+
+    <div id="hamburger">
+        <span class="fas fa-bars"></span>
+    </div>
+
+    <div id="sidebar">
+        <a href="../../index.html"> Volver a la pagina principal </a>
+        <a href="#project-header"> Inicio </a>
+        <a href="#view-project"> Probar el proyecto </a>
+        <a href="#about"> Acerca del proyecto </a>
+    </div>
+
+    <div id="content">
+        <div id="project-header" class="section">
+            <h1> Mercado Tracker </h1>
+            <canvas id="header-canvas"></canvas>
+        </div>
+        <div id="project-image" class="section">
+            <div id="img-container">
+                <img src="screenshots/captura-1.png" alt="screenshot">
+                <img src="screenshots/captura-2.png" alt="screenshot">
+                <img src="screenshots/captura-3.png" alt="screenshot">
+                <img src="screenshots/captura-4.png" alt="screenshot">
+                <img src="screenshots/captura-5.png" alt="screenshot">
+            </div>
+        </div>
+        <div id="view-project" class="section odd">
+            <a class="btn odd" target="_blank" href="https://mercadotracker.herokuapp.com/"> VER PAGINA </a>
+            <a class="btn odd" target="_blank" href="https://github.com/BarbaBlanca97/mercado-tracker"> VER CODIGO FUENTE </a>
+
+            <div>
+                <div class="warn-display">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Esta aplicación está alojada en un dyno gratis de Heroku, por lo tanto <strong>los tiempos de carga pueden ser lentos inicialmente</strong>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="about">
+            <h1> Acerca del proyecto </h1>
+
+            <p>
+                Es una aplicación web que te permite seguir un producto de Mercado Libre y ser notificado por correo cuando su precio o divisa cambie. 
+                <br>
+                <br>
+                Para utilizarla solo hay que crear una cuenta y verificar la dirección de correo electrónico para poder recibir las notificaciones. Una vez dentro basta con pegar la url del producto que nos interesa seguir para que la aplicación lo registre en la base de datos para hacer los chequeos.
+                <br>
+                <br>
+                El chequeo de cambio de precios se hace cada una hora, por lo tanto las notificaciones podrían no ser inmediatas.
+                <br>
+                <br>
+                Con respecto a las cuentas de usuario, la aplicación es muy flexible, permite crearlas, borrarlas, y brinda opciones de recuperación de contraseña.
+            </p>
+
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/javascript.svg" alt="laguage-tec">
+                <span>Javascript</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/java.svg" alt="laguage-tec">
+                <span>Java</span>
+            </div>
+
+            <h4><span class="text-strong">Tecnologías:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/spring.svg" alt="laguage-tec">
+                <span>Spring</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/react.svg" alt="laguage-tec">
+                <span>React</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/webpack.svg" alt="laguage-tec">
+                <span>Webpack</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/postgresql.svg" alt="laguage-tec">
+                <span>PostgreSQL</span>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/script.js"></script>
+</body>
+</html>

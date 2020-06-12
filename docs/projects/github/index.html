@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;800&display=swap" rel="stylesheet">
+
+    <script defer src="../assets/fa-all.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/styles.css">
+
+    <title> Porfolio </title>
+</head>
+
+<body>
+
+    <div id="hamburger">
+        <span class="fas fa-bars"></span>
+    </div>
+
+    <div id="sidebar">
+        <a href="../index.html"> Volver a la pagina principal </a>
+        <a href="#project-header"> Inicio </a>
+        <a href="#view-project"> Probar el proyecto </a>
+        <a href="#about"> Acerca del proyecto </a>
+    </div>
+
+    <div id="content">
+        <div id="project-header" class="section">
+            <h1> Github </h1>
+            <canvas id="header-canvas"></canvas>
+        </div>
+        <div id="project-image" class="section">
+            <div id="img-container">
+                <img src="../../assets/proyect.PNG">
+                <img src="port.webp">
+                <img src="../../assets/proyect.PNG">
+            </div>
+        </div>
+        <div id="view-project" class="section odd">
+            <a class="btn odd" href="www.github.com"> VER PAGINA </a>
+            <a class="btn odd" href="www.github.com"> VER CODIGO FUENTE </a>
+
+            <div>
+                <div class="warn-display">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    Esta aplicación está alojada en un dyno gratis de Heroku, por lo tanto <strong>los tiempos de carga pueden ser lentos inicialmente</strong>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="about">
+            <h1> Acerca del proyecto </h1>
+
+            <span class="pill">
+                <i class="fas fa-users"></i>
+                En equipo
+            </span>
+
+            <p> Git, es un software de control de versiones diseñado por Linus Torvalds. La pregunta es ¿qué es control
+                de versiones? Pues bien, se define como control de versiones a la gestión de los diversos cambios que se
+                realizan sobre los elementos de algún producto o una </p>
+
+            <h3> Especificaciones técnicas </h3>
+
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/javascript.svg" alt="laguage-tec">
+                <span>Javascript</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/javascript.svg" alt="laguage-tec">
+                <span>C++</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/javascript.svg" alt="laguage-tec">
+                <span>React</span>
+            </div>
+
+            <h4><span class="text-strong">Tecnologías:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/javascript.svg" alt="laguage-tec">
+                <span>Spring</span>
+            </div>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/javascript.svg" alt="laguage-tec">
+                <span>Flutter</span>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/script.js"></script>
+</body>
+</html>

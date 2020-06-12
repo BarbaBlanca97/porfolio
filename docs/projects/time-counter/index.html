@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;800&display=swap" rel="stylesheet">
+
+    <script defer src="../../assets/fa-all.min.js"></script>
+
+    <link rel="stylesheet" href="../../assets/styles.css">
+
+    <title> Time Counter </title>
+</head>
+
+<body>
+
+    <div id="hamburger">
+        <span class="fas fa-bars"></span>
+    </div>
+
+    <div id="sidebar">
+        <a href="../../index.html"> Volver a la pagina principal </a>
+        <a href="#project-header"> Inicio </a>
+        <a href="#view-project"> Probar el proyecto </a>
+        <a href="#about"> Acerca del proyecto </a>
+    </div>
+
+    <div id="content">
+        <div id="project-header" class="section">
+            <h1> Time Counter </h1>
+            <canvas id="header-canvas"></canvas>
+        </div>
+        <div id="view-project" class="section odd">
+            <a class="btn odd" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=barbablanca97.timeregister"> VER EN MARKETPLACE </a>
+            <a class="btn odd" target="_blank" href="https://github.com/BarbaBlanca97/time-counter"> VER CODIGO FUENTE </a>
+        </div>
+        <div class="section" id="about">
+            <h1> Acerca del proyecto </h1>
+
+            <p> 
+                Es un pequeño plugin para Visual Studio Code que cuenta cuanto tiempo llevas trabajando en un proyecto. 
+                <br>
+                <br>
+                Puede decirte cuanto vas trabajando en la sesión actual (desde la última vez que abriste VS Code) y el tiempo total (desde que se abrió por primera ver el workspace con VS Code).
+            </p>
+
+            <h4><span class="text-strong">Lenguajes:</span></h4>
+            <div class="tecnology-used-item">
+                <img src="../../assets/tec-icons/typescript.svg" alt="laguage-tec">
+                <span>Typescript</span>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/script.js"></script>
+</body>
+</html>
