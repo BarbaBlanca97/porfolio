@@ -210,4 +210,4 @@ img.onload = function() {
         if (window.innerWidth != cachedWindowWidth) init();
     });
 }
-img.src = "/assets/logos.png";
+img.src = "/porfolio/assets/logos.png";

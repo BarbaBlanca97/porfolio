@@ -1,3 +1,9 @@
 {
 	"liveServer.settings.root": "/docs",
+	"liveServer.settings.proxy": {
+		"enable": true,
+		"baseUri": "/porfolio", 
+		"proxyUri": "http://localhost:5500/"
+	},
+	"liveServer.settings.host": "localhost"
 }
